@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Navbar */
+#navbar {
+  background: linear-gradient(90deg, #0077b6, #48cae4);
+}
+#navbar h2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#navbar nav a {
+  margin: 0 12px;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+#navbar nav a:hover {
+  color: #ffdd00;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(to right, #0077b6, #90e0ef);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.hero-section h6 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #eeeeee;
+}
+
+/* Headings */
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0077b6;
+  font-weight: 700;
+}
+
+/* Buttons */
+.btn-custom {
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+.btn-custom:hover {
+  transform: scale(1.05);
+}
+
+/* Timeline (Education) */
+.timeline-item {
+  border-left: 3px solid #0077b6;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+  transition: transform 0.3s, background 0.3s;
+}
+.skill:hover {
+  background: linear-gradient(90deg, #90e0ef, #48cae4);
+  color: white;
+  transform: scale(1.05);
+}
+.skill img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.skill span {
+  font-weight: 600;
+}
+
+/* Projects */
+.project {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Certificates */
+#certificates ul li {
+  margin: 10px 0;
+}
+#certificates a {
+  color: #0077b6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+#certificates a:hover {
+  color: #ff6600;
+}
+
+/* Footer */
+footer {
+  background: #023e8a;
+  color: white;
+}
+footer a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #ffdd00;
+}
+#uparrow {
+  margin-left: 15px;
+}
